@@ -22,6 +22,18 @@ header {
         text-align: center;
         padding: var(--pad-foot-head);
         border: solid blue;
+
+        .homeTitle {
+            display: flex;
+            flex-direction: row;
+            gap: 16px;
+            align-items: center;
+
+            p:hover{
+                color: #EF5F4C;
+                text-decoration: underline ;
+            }
+        }
     }
 
     .logo {
@@ -52,12 +64,7 @@ header {
         height: 40px;
     }
 
-    .homeTitle {
-        display: flex;
-        flex-direction: row;
-        gap: 16px;
-        align-items: center;
-    }
+    
 }
 
 .container {
