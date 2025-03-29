@@ -1,46 +1,66 @@
-:root{
-    --pad: 20px 32px 20px 32px;;
+:root {
+    --pad-foot-head: 20px 32px 20px 32px;
+    --pad: 32px;
     --marg: 24px;
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Poppins, sans-serif;
 }
 
-header{
+header {
     border: dashed;
 
-    .naviPage{
+    .naviPage {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        padding: var(--pad);
+        align-items: center;
+        text-align: center;
+        padding: var(--pad-foot-head);
         border: solid blue;
     }
 
-    .home{
+    .logo {
+        width: 162px;
+        height: 32px;
+    }
+
+    .home {
+        padding: var(--pad);
+        display: flex;
+        flex-direction: row;
         border: solid red;
         /* ajeita depois a foto com o texto */
+
+        .homePhoto {
+            width: 176px;
+            height: 176px;
+        }
     }
 
-    span{
-        font-family: Poppins, sans-serif;
-    }
-
-    .search{
+    .search {
         width: 24px;
         height: 24px;
     }
 
-    .titleProfile{
+    .titleProfile {
         width: 40px;
         height: 40px;
     }
+
+    .homeTitle {
+        display: flex;
+        flex-direction: row;
+        gap: 16px;
+        align-items: center;
+    }
 }
 
-.container{
+.container {
     border: solid blueviolet;
     padding: var(--marg);
     gap: var(--marg);
@@ -48,8 +68,15 @@ header{
     flex-direction: row;
     flex-wrap: wrap;
 
-    img{
+    img {
         width: 286px;
         height: 286px;
     }
+}
+
+.controlHome {
+    border: solid green;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
