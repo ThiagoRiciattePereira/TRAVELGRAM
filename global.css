@@ -1,0 +1,55 @@
+:root{
+    --pad: 20px 32px 20px 32px;;
+    --marg: 24px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    border: dashed;
+
+    .naviPage{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: var(--pad);
+        border: solid blue;
+    }
+
+    .home{
+        border: solid red;
+        /* ajeita depois a foto com o texto */
+    }
+
+    span{
+        font-family: Poppins, sans-serif;
+    }
+
+    .search{
+        width: 24px;
+        height: 24px;
+    }
+
+    .titleProfile{
+        width: 40px;
+        height: 40px;
+    }
+}
+
+.container{
+    border: solid blueviolet;
+    padding: var(--marg);
+    gap: var(--marg);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    img{
+        width: 286px;
+        height: 286px;
+    }
+}
