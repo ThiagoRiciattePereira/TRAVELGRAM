@@ -1,4 +1,5 @@
 :root {
+    /* criar mais variaveis a partir da analise do projeto */
     --pad-foot-container: 24px 32px;
     --pad-head: 20px 32px;
     --pad-control: 32px;
