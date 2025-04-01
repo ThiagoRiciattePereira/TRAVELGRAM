@@ -132,19 +132,20 @@
 .container {
     background-color: #FFFFFF;
     padding: var(--pad-foot-container);
-    max-width: 1280px;
-    max-height: 954px;
+    width: 1280px;
+    height: 954px;
     margin: auto;
-    row-gap: 24px;
-    column-gap: 24px;
+    gap: 24px;
     display: flex;
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
     
     img {
-        flex-basis: 286px;
+        width: 286px;
+        height: 286px;
         border-radius: 10px;
+        object-fit: cover;
     }
 }
 
